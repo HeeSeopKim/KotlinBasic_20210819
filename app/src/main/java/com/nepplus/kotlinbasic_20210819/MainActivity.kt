@@ -15,5 +15,9 @@ class MainActivity : AppCompatActivity() {
             Log.e("메인화면", "e로 로그 찍어봄")
             Log.d("메인화면", "i로 로그 찍기")
         }
+
+        logBtn02.setOnClickListener {
+            Log.d("메인화면", "두번째 로그 버튼 눌림")
+        }
     }
 }
