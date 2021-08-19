@@ -21,8 +21,14 @@ class MainActivity : AppCompatActivity() {
             Log.d("메인화면", "두번째 로그 버튼 눌림")
         }
 
-        toastBtn.setOnClickListener {
+        toastBtn01.setOnClickListener {
             Toast.makeText(this, "토스트 버튼 눌림", Toast.LENGTH_SHORT).show()
         }
+
+        toastBtn02.setOnClickListener {
+            Toast.makeText(this, "토스트 버튼 눌림", Toast.LENGTH_SHORT).show()
+        }
+
+
     }
 }
